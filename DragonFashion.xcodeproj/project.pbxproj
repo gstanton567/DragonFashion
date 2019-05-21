@@ -12,6 +12,8 @@
 		15C9798922943FF500A3171B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C9798722943FF500A3171B /* Main.storyboard */; };
 		15C9798B22943FF700A3171B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C9798A22943FF700A3171B /* Assets.xcassets */; };
 		15C9798E22943FF700A3171B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C9798C22943FF700A3171B /* LaunchScreen.storyboard */; };
+		15C979962294508700A3171B /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C979952294508700A3171B /* Dragon.swift */; };
+		15C979982294669900A3171B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C979972294669900A3171B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		15C9798A22943FF700A3171B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C9798D22943FF700A3171B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15C9798F22943FF700A3171B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C979952294508700A3171B /* Dragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		15C979972294669900A3171B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				15C9798322943FF500A3171B /* AppDelegate.swift */,
 				15C9798522943FF500A3171B /* ViewController.swift */,
+				15C979972294669900A3171B /* DetailViewController.swift */,
+				15C979952294508700A3171B /* Dragon.swift */,
 				15C9798722943FF500A3171B /* Main.storyboard */,
 				15C9798A22943FF700A3171B /* Assets.xcassets */,
 				15C9798C22943FF700A3171B /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C9798622943FF500A3171B /* ViewController.swift in Sources */,
+				15C979962294508700A3171B /* Dragon.swift in Sources */,
 				15C9798422943FF500A3171B /* AppDelegate.swift in Sources */,
+				15C979982294669900A3171B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
